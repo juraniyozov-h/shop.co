@@ -1,0 +1,11 @@
+.brand{
+    padding: 45px 0;
+    background-color: #000000;
+
+    .brand__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 106px;
+    }
+}

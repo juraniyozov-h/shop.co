@@ -1,0 +1,95 @@
+.arriwals{
+    padding-top: 72px;
+
+    .arriwals__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        margin-bottom: 40px;
+    }
+    .arriwals__title{
+        font-family: "Inter",sans-serif;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 48px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        vertical-align: middle;
+        margin-bottom: 55px;
+    }
+    .arriwals__txt{
+        margin-top: 20px;
+        font-family: "Inter",sans-serif;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+
+    }
+    .arriwals__star{
+        margin: 10px 0;
+    }
+    .arriwals__shop{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .arriwals__price{
+        font-family: "Inter",sans-serif;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        color: #000000;
+    }
+    .arriwals__old{
+        font-family: "Inter",sans-serif;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        text-decoration: line-through;
+        color: #00000066;
+    }
+    .arriwals__del{
+        color: #00000066;
+    }
+    .arriwals__btn{
+        padding: 6px 14px;
+        font-family: "Inter",sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        background-color: #FF33331A;
+        color: #FF3333;
+        border: none;
+        border-radius: 62px;    
+    }
+    .arriwals__forlink{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 80px;
+    }
+    .arriwals__link{
+        padding: 15px 80px;
+        border: 1px solid #0000001A;
+        border-radius: 62px;
+        color: #000000;
+    }
+    .arriwals__hr{
+        width: 1310px;
+        height: 1px;
+        background-color: #0000001A;
+    }
+}

@@ -1,0 +1,44 @@
+.header{
+
+    .header__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 37px 0;
+    }
+    .header__logo{
+        display: flex;
+    }
+    .header__menu{
+        display: none;
+    }
+    .header__nav{
+        display: flex;
+        gap: 30px;
+        position: relative;
+    }
+    .header__bottom{
+        position: absolute;
+        top: 2px;
+        left: 38px;
+    }
+    .header__search{
+        position: relative;
+    }
+    #header__search{
+        
+        padding: 12px 52px 14px;
+        background-color: #F0F0F0;
+        border: none;
+        border-radius: 62px;
+        width: 500px;
+    }
+    .header__loop{
+        position: absolute;
+        top: 8px;
+        left: 15px;
+    }
+    .header__icon{
+        display: none;
+    }
+}

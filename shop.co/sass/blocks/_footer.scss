@@ -1,0 +1,53 @@
+.footer{
+    background-color: #F0F0F0;
+
+    .footer__wrapper{
+        padding: 130px 0 90px;
+        position: relative;
+    }
+    .footer__update{
+        position: absolute;
+        top: -90px;
+        left: 140px;
+        padding: 43px 64px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #000000;
+        border-radius: 20px;
+    }
+    .footer__about{
+        font-family: "Inter",sans-serif;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 40px;
+        line-height: 45px;
+        letter-spacing: 0%;
+        color: #fff;
+        width: 550px;
+    }
+    .footer__mail{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    #mail{
+        padding: 13px 125px 13px 52px;
+        border: none;
+        border-radius: 62px;
+    }
+    .footer__img{
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 8px;
+        left: 17px;
+    }
+    .footer__btn{
+        padding: 12px 88px;
+        background-color: #fff;
+        color: #000000;
+        border-radius: 62px;
+    }
+}
