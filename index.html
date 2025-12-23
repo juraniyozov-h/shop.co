@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SHOP.CO</title>
+    <!-- aos kutubxonasi -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- favicon -->
     <link rel="shortcut icon" href="./src/SHOP.CO.svg" type="image/x-icon" />
     <!-- css link -->
@@ -13,18 +15,18 @@
     <header class="header">
       <div class="container">
         <div class="header__wrapper">
-          <div class="header__logo">
+          <div data-aos="fade-down" data-aos-duration="1000" class="header__logo">
             <img src="./src/shop.co-menu.svg" alt="" class="header__menu" />
             <img class="header__shopco" src="./src/SHOP.CO.svg" alt="" />
           </div>
           <nav class="header__nav">
-            <li class="header__item">Shop</li>
-            <li class="header__item">On Sale</li>
-            <li class="header__item">New Arrivals</li>
-            <li class="header__item">Brands</li>
-            <img class="header__bottom" src="./src/shop.co-bottom.svg" alt="" />
+            <li data-aos="fade-down" data-aos-duration="1000" class="header__item"><a href="#" class="header__link">Shop</a></li>
+            <li data-aos="fade-down" data-aos-duration="1500" class="header__item"><a href="./product.html" class="header__link">On Sale</a></li>
+            <li data-aos="fade-down" data-aos-duration="2000" class="header__item"><a href="./category.html" class="header__link">New Arrivals</a></li>
+            <li data-aos="fade-down" data-aos-duration="1000" class="header__item"><a href="./notfound.html" class="header__link">Brands</a></li>
+            <img data-aos="fade-down" data-aos-duration="1000" class="header__bottom" src="./src/shop.co-bottom.svg" alt="" />
           </nav>
-          <label class="header__search" for="header__search">
+          <label data-aos="fade-down" data-aos-duration="2500" class="header__search" for="header__search">
             <input
               placeholder="Search for products..."
               id="header__search"
@@ -32,7 +34,7 @@
             />
             <img class="header__loop" src="./src/shop.co-search.svg" alt="" />
           </label>
-          <div class="header__profile">
+          <div data-aos="fade-down" data-aos-duration="3000" class="header__profile">
             <img
               src="./src/shop.co-loop-icon.svg"
               alt=""
@@ -57,9 +59,9 @@
                 garments, designed to bring out your individuality and cater to
                 your sense of style.
               </p>
-              <a href="#arriwals__list">Shop Now</a>
+              <a href="./product.html">Shop Now</a>
               <ul class="hero__list">
-                <li class="hero__item">
+                <li  class="hero__item">
                   <h6 class="hero__price">200+</h6>
                   <p class="hero__subtxt">International Brands</p>
                 </li>
@@ -393,5 +395,10 @@
         </div>
       </div>
     </footer>
+    <!-- aos js link -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+  AOS.init();
+</script>
   </body>
 </html>

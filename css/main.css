@@ -64,6 +64,9 @@ li {
 .header .header__icon {
   display: none;
 }
+.header .header__link{
+  color: #000000;
+}
 
 .hero {
   background-color: #F2F0F1;

@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1440px;
+}
+
+/* header */
+.header__about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 37px 0;
+}
+.header__logo {
+  display: flex;
+}
+.header__menu {
+  display: none;
+}
+.header__nav {
+  display: flex;
+  gap: 30px;
+  position: relative;
+}
+.header__bottom {
+  position: absolute;
+  top: 2px;
+  left: 38px;
+}
+.header__search {
+  position: relative;
+}
+#header__search {
+  padding: 12px 52px 14px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 62px;
+  width: 500px;
+}
+.header__loop {
+  position: absolute;
+  top: 8px;
+  left: 15px;
+}
+.header__icon {
+  display: none;
+}
+.header__link {
+  color: #000000;
+}
+.header__hr {
+  width: 1325px;
+  height: 1px;
+  background-color: #0000001a;
+}
+.header__page {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 25px 0;
+}
+.header__sec {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header__btn {
+  color: #00000099;
+}
+.header__shirt {
+  color: #000000;
+}
