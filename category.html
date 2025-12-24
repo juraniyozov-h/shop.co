@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Category</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Category</title>
     <!-- aos kutubxonasi -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- favicon link -->
     <link rel="shortcut icon" href="./src/SHOP.CO.svg" type="image/x-icon" />
     <!-- css link -->
-    <link rel="stylesheet" href="./category.css" />  
-</head>
-<body>
-  <header class="header">
+    <link rel="stylesheet" href="./category.css" />
+  </head>
+  <body>
+    <header class="header">
       <div class="container">
         <div class="header__wrapper">
           <div class="header__about">
@@ -37,14 +37,14 @@
                 data-aos-duration="1500"
                 class="header__item"
               >
-                <a href="#" class="header__link">On Sale</a>
+                <a href="./product.html" class="header__link">On Sale</a>
               </li>
               <li
                 data-aos="fade-down"
                 data-aos-duration="2000"
                 class="header__item"
               >
-                <a href="./category.html" class="header__link">New Arrivals</a>
+                <a href="#" class="header__link">New Arrivals</a>
               </li>
               <li
                 data-aos="fade-down"
@@ -72,7 +72,11 @@
                 id="header__search"
                 type="text"
               />
-              <img class="header__loop" src="./src/shop.co-search.svg" alt="loop" />
+              <img
+                class="header__loop"
+                src="./src/shop.co-search.svg"
+                alt="loop"
+              />
             </label>
             <div
               data-aos="fade-down"
@@ -107,12 +111,391 @@
     </header>
     <main>
       <!-- hero -->
-       <section class="hero"></section>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__wrapper">
+            <div class="hero__left">
+              <div class="hero__filters">
+                <p class="hero__filter">Filters</p>
+                <img src="./src/shop.co-settings.svg" alt="settings" />
+              </div>
+              <div class="hero__hr"></div>
+              <div class="hero__shirts">
+                <p class="hero__shirt">T-shirts</p>
+                <img src="./src/shop.co-str-toright.svg" alt="strelka" />
+              </div>
+              <div class="hero__shirts">
+                <p class="hero__shirt">Shorts</p>
+                <img src="./src/shop.co-str-toright.svg" alt="strelka" />
+              </div>
+              <div class="hero__shirts">
+                <p class="hero__shirt">T-shirts</p>
+                <img src="./src/shop.co-str-toright.svg" alt="strelka" />
+              </div>
+              <div class="hero__shirts">
+                <p class="hero__shirt">T-shirts</p>
+                <img src="./src/shop.co-str-toright.svg" alt="strelka" />
+              </div>
+              <div class="hero__hr"></div>
+              <div class="hero__prices">
+                <p class="hero__price">Price</p>
+                <img src="./src/shop.co-to-top.svg" alt="strelka" />
+              </div>
+              <div class="slider-container">
+                <div class="slider-track"></div>
+                <input
+                  type="range"
+                  min="0$"
+                  max="100$"
+                  value="25$"
+                  id="slider-1"
+                  oninput="slideOne()"
+                />
+                <input
+                  type="range"
+                  min="0$"
+                  max="100$"
+                  value="75$"
+                  id="slider-2"
+                  oninput="slideTwo()"
+                />
+              </div>
+              <div class="values-display">
+                <span id="range1">25$</span>
+                <span> to </span>
+                <span id="range2">75$</span>
+              </div>
+              <div class="hero__hr"></div>
+              <div class="hero__prices">
+                <p class="hero__price">Colors</p>
+                <img src="./src/shop.co-to-top.svg" alt="strelka" />
+              </div>
+              <div class="hero__colors">
+                <div class="hero__color green"></div>
+                <div class="hero__color red"></div>
+                <div class="hero__color yellow"></div>
+                <div class="hero__color orange"></div>
+                <div class="hero__color info"></div>
+                <div class="hero__color blue"></div>
+                <div class="hero__color primary"></div>
+                <div class="hero__color pink"></div>
+                <div class="hero__color white"></div>
+                <div class="hero__color black"></div>
+              </div>
+              <div class="hero__hr"></div>
+              <div class="hero__prices">
+                <p class="hero__price">Size</p>
+                <img src="./src/shop.co-to-top.svg" alt="strelka" />
+              </div>
+              <div class="hero__size">
+                <button>XX-Small</button>
+                <button>X-Small</button>
+                <button>Small</button>
+                <button>Medium</button>
+                <button>Large</button>
+                <button>X-Large</button>
+                <button>XX-Large</button>
+                <button>3X-Large</button>
+                <button>4X-Large</button>
+              </div>
+              <div class="hero__hr"></div>
+              <div class="hero__prices">
+                <p class="hero__price">Dress Style</p>
+                <img src="./src/shop.co-to-top.svg" alt="strelka" />
+              </div>
+              <div class="hero__shirts">
+                <p class="hero__shirt">Casual</p>
+                <img src="./src/shop.co-str-toright.svg" alt="strelka" />
+              </div>
+              <div class="hero__shirts">
+                <p class="hero__shirt">Formal</p>
+                <img src="./src/shop.co-str-toright.svg" alt="strelka" />
+              </div>
+              <div class="hero__shirts">
+                <p class="hero__shirt">Party</p>
+                <img src="./src/shop.co-str-toright.svg" alt="strelka" />
+              </div>
+              <div class="hero__shirts">
+                <p class="hero__shirt">Gym</p>
+                <img src="./src/shop.co-str-toright.svg" alt="strelka" />
+              </div>
+              <a href="#" class="hero__link">Apply Filter</a>
+            </div>
+            <div class="hero__right">
+              <div class="hero__product">
+                <h2 class="hero__title">Casual</h2>
+                <p class="hero__sort">
+                  Showing 1-10 of 100 Products <span class="hero__display">Sort by:</span>
+                  <span class="hero__span">Most Popular</span>
+                  <img src="./src/shop.co-bottom.svg" alt="strelka" />
+                </p>
+                <img class="hero__sozlama" src="./src/shop.coo-settings.svg" alt="sozlama">
+              </div>
+              <ul class="sell__list">
+                <li class="sell__item">
+                  <img src="./src/shop-t-shirt.svg" alt="kiyim" />
+                  <h6 class="sell__txt">T-SHIRT WITH TAPE DETAILS</h6>
+                  <img
+                    class="sell__star"
+                    src="./src/shop-star.svg"
+                    alt="star"
+                  />
+                  <div class="sell__shop">
+                    <p class="sell__price">$145</p>
+                  </div>
+                </li>
+                <li class="sell__item">
+                  <img src="./src/shop-jeans.svg" alt="kiyim" />
+                  <h6 class="sell__txt">SKINNY FIT JEANS</h6>
+                  <img
+                    class="sell__star"
+                    src="./src/shop-star.svg"
+                    alt="star"
+                  />
+                  <div class="sell__shop">
+                    <p class="sell__price">$145</p>
+                  </div>
+                </li>
+                <li class="sell__item">
+                  <img src="./src/shop-check.svg" alt="kiyim" />
+                  <h6 class="sell__txt">CHECKERED SHIRTS</h6>
+                  <img
+                    class="sell__star"
+                    src="./src/shop-star.svg"
+                    alt="star"
+                  />
+                  <div class="sell__shop">
+                    <p class="sell__price">$180</p>
+                    <p class="sell__old">
+                      <del class="arriwals__del">$242</del>
+                    </p>
+                    <button class="sell__btn">-20%</button>
+                  </div>
+                </li>
+                <li class="sell__item">
+                  <img src="./src/shop-sleve.svg" alt="kiyim" />
+                  <h6 class="sell__txt">SLEEVE STRIPED T-SHIRT</h6>
+                  <img
+                    class="sell__star"
+                    src="./src/shop-star.svg"
+                    alt="star"
+                  />
+                  <div class="sell__shop">
+                    <p class="sell__price">$120</p>
+                    <p class="sell__old">
+                      <del class="arriwals__del">$150</del>
+                    </p>
+                    <button class="sell__btn">-30%</button>
+                  </div>
+                </li>
+                <li class="sell__item">
+                  <img src="./src/shop.co-rangbar.svg" alt="kiyim" />
+                  <h6 class="sell__txt">CHECKERED SHIRTS</h6>
+                  <img
+                    class="sell__star"
+                    src="./src/shop-star.svg"
+                    alt="star"
+                  />
+                  <div class="sell__shop">
+                    <p class="sell__price">$120</p>
+                  </div>
+                </li>
+                <li class="sell__item">
+                  <img src="./src/shop.co-polo.svg" alt="kiyim" />
+                  <h6 class="sell__txt">SKINNY FIT JEANS</h6>
+                  <img
+                    class="sell__star"
+                    src="./src/shop-star.svg"
+                    alt="star"
+                  />
+                  <div class="sell__shop">
+                    <p class="sell__price">$120</p>
+                    <p class="sell__old">
+                      <del class="arriwals__del">$150</del>
+                    </p>
+                    <button class="sell__btn">-30%</button>
+                  </div>
+                </li>
+                <li class="sell__item">
+                  <img src="./src/shop.co-green-shirt.svg" alt="kiyim" />
+                  <h6 class="sell__txt">T-SHIRT WITH TAPE DETAILS</h6>
+                  <img
+                    class="sell__star"
+                    src="./src/shop-star.svg"
+                    alt="star"
+                  />
+                  <div class="sell__shop">
+                    <p class="sell__price">$120</p>
+                    <p class="sell__old">
+                      <del class="arriwals__del">$150</del>
+                    </p>
+                    <button class="sell__btn">-30%</button>
+                  </div>
+                </li>
+                <li class="sell__item">
+                  <img src="./src/shop.co-yol-yol.svg" alt="kiyim" />
+                  <h6 class="sell__txt">CHECKERED SHIRTS</h6>
+                  <img
+                    class="sell__star"
+                    src="./src/shop-star.svg"
+                    alt="star"
+                  />
+                  <div class="sell__shop">
+                    <p class="sell__price">$200</p>
+                  </div>
+                </li>
+                <li class="sell__item">
+                  <img src="./src/shop.co-fit-short.svg" alt="kiyim" />
+                  <h6 class="sell__txt">SLEEVE STRIPED T-SHIRT</h6>
+                  <img
+                    class="sell__star"
+                    src="./src/shop-star.svg"
+                    alt="star"
+                  />
+                  <div class="sell__shop">
+                    <p class="sell__price">$120</p>
+                  </div>
+                </li>
+              </ul>
+              <div class="hero__btm"></div>
+              <div class="hero__page">
+                <a href="#" class="hero__btn">
+                  <img src="./src/shop-arrow-left.svg" alt="strelka">
+                  Previous
+                </a>
+                <div class="hero__number">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>...</button>
+                <button>8</button>
+                <button>9</button>
+                <button>10</button>
+              </div>
+              <a href="#" class="hero__btn">
+                Next
+                <img src="./src/shop-arrow-right.svg" alt="strelka">
+              </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__update">
+            <h2 class="footer__about">
+              STAY UPTO DATE ABOUT OUR LATEST OFFERS
+            </h2>
+            <form action="" method="post">
+              <label class="footer__mail" for="mail">
+                <input
+                  placeholder="Enter your email address"
+                  id="mail"
+                  type="text"
+                />
+                <img
+                  class="footer__img"
+                  src="./src/shop-sms.svg"
+                  alt="message"
+                />
+                <a href="#" class="footer__btn">Subscribe to Newsletter</a>
+              </label>
+            </form>
+          </div>
+          <ul class="footer__list">
+            <li class="footer__item footer__dec">
+              <img class="footer__image" src="./src/SHOP.CO.svg" alt="shop.co">
+              <p class="footer__txt">
+                We have clothes that suits your style and which you're proud to wear.
+                 From women to men.
+              </p>
+              <div class="footer__pic">
+                <img src="./src/shop-twitter.svg" alt="twitter">
+                <img src="./src/shop-facebook.svg" alt="facebook">
+                <img src="./src/shop-instagram.svg" alt="instagram">
+                <img src="./src/shop-cat.svg" alt="cat">                
+              </div>
+            </li>
+            <li class="footer__item">
+              <h4 class="footer__title">Company</h4>
+              <p class="footer__txt">About</p>
+              <p class="footer__txt">Features</p>
+              <p class="footer__txt">Works</p>
+              <p class="footer__txt">Career</p>
+            </li>
+            <li class="footer__item">
+              <h4 class="footer__title">Company</h4>
+              <p class="footer__txt">About</p>
+              <p class="footer__txt">Features</p>
+              <p class="footer__txt">Works</p>
+              <p class="footer__txt">Career</p>
+            </li>
+            <li class="footer__item">
+              <h4 class="footer__title">Company</h4>
+              <p class="footer__txt">About</p>
+              <p class="footer__txt">Features</p>
+              <p class="footer__txt">Works</p>
+              <p class="footer__txt">Career</p>
+            </li>
+            <li class="footer__item">
+              <h4 class="footer__title">Company</h4>
+              <p class="footer__txt">About</p>
+              <p class="footer__txt">Features</p>
+              <p class="footer__txt">Works</p>
+              <p class="footer__txt">Career</p>
+            </li>
+          </ul>
+          <div class="footer__hr"></div>
+          <div class="footer__private">
+            <p class="footer__reserved">Shop.co © 2000-2023, All Rights Reserved</p>
+            <div class="footer__pictures">
+              <img src="./src/shop-visa.svg" alt="visa">
+              <img src="./src/shop-mastercard.svg" alt="mastercard">
+              <img src="./src/shop-paypal.svg" alt="paypal">
+              <img src="./src/shop-applepay.svg" alt="apple-pay">
+              <img src="./src/shop-gpay.svg" alt="google-pay">              
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- js range -->
+    <script>
+      let sliderOne = document.getElementById("slider-1");
+      let sliderTwo = document.getElementById("slider-2");
+      let displayValOne = document.getElementById("range1");
+      let displayValTwo = document.getElementById("range2");
+      let minGap = 0;
+
+      function slideOne() {
+        if (parseInt(sliderTwo.value) - parseInt(sliderOne.value) <= minGap) {
+          sliderOne.value = parseInt(sliderTwo.value) - minGap;
+        }
+        displayValOne.textContent = sliderOne.value;
+      }
+
+      function slideTwo() {
+        if (parseInt(sliderTwo.value) - parseInt(sliderOne.value) <= minGap) {
+          sliderTwo.value = parseInt(sliderOne.value) + minGap;
+        }
+        displayValTwo.textContent = sliderTwo.value;
+      }
+
+      // Initialize on load
+      window.onload = function () {
+        slideOne();
+        slideTwo();
+      };
+    </script>
+
     <!-- aos js link -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
-</body>
+  </body>
 </html>
